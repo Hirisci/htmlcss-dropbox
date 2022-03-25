@@ -41,6 +41,11 @@ body{
     max-width: 1300px;
 }
 
+.container{
+    margin: auto;
+    max-width: 1080px;
+}
+
 /*--- button ---*/
 
 .btn{
