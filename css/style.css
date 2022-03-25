@@ -45,7 +45,7 @@ body{
 
 .btn{
     border: none;
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: var(--colore-bg-btn-base);
     color: var(--colore-btn-base);
 }
@@ -57,7 +57,7 @@ body{
 /*--- HEADER ---*/
 
 header{
-    line-height: 70px;
+    line-height: 60px;
     padding: 10px 15px;
 }
 .logo img{
@@ -91,10 +91,23 @@ header{
     background-color: var(--colore-bg-section);
     position: relative;
 }
+.hero .container-big{
+    position: relative;
+    bottom: -100px;
+}
 
 .hero .container-big h1{
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 30px;
+}
+
+.hero .container-big p{
+    margin-bottom: 15px;
+}
+
+.hero .container-big i{
+    margin-top: 30px;
+    font-size: 50px;
 }
 
 
