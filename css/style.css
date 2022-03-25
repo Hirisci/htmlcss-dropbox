@@ -301,6 +301,9 @@ div.box-input{
 }
 
 /*--- ADV ---*/
+.adv{
+    margin-top: 150px;
+}
 .square img{
     width: 75%;
     position: absolute;
@@ -318,10 +321,11 @@ div.box-input{
 .square{
     position: relative;
     height: 12.5vw;
-    width: 50%;
+    width: 12.5vw;
 
 }
 .square-designit{
+    border: 10px solid #d0e9cd;
     background-color: var(--colore-sponsor-uno);
 }
 
@@ -354,17 +358,28 @@ div.box-input{
 }
 
 div.col-sx,div.col-dx{
-    width: 25vw;
     margin: auto;
     height: 25vw;
 }
 
 .col-cn{
-    width: calc(50vw - 3vw );
-    margin: 0 1vw;
+    width: 40%;
+    margin: 0 25px;
     height: 25vw;
-
+    padding: 40px;
 }
+
+.col-cn img{
+    width: 35%;
+    background-color: black;
+}
+
+.col-cn hr{
+    margin: 20px 0;
+    width: 60px;
+}
+
+
 .col-sx,.col-cn,.col-dx{
     float:left
 }
