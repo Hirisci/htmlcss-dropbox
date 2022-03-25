@@ -292,16 +292,15 @@ div.box-input{
 }
 
 /*--- ADV ---*/
-.adv .sponsor .col .row .square img{
+.square img{
     width: 75%;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,50%);
-    color:#fff;
-   
-    
+    transform: translate(-50%,-50%);
 }
+   
+
 .sponsor{
     background-color: burlywood;
 }
