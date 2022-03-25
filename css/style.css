@@ -281,6 +281,16 @@ div.box-input{
     margin: 30px 0;
 }
 
+/*--- ENDING PAGE ---*/
+
+.ending-main .container>*{
+    margin: 0; 
+}
+
+.ending-main .container a{
+    color: var(--colore-bg-btn-base);
+}
+
 
 
 
