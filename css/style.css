@@ -30,6 +30,10 @@ body{
     clear: both;
 }
 
+.col{
+    float: left;
+}
+
 /*--- container ---*/
 
 .container-big{
@@ -85,5 +89,29 @@ header{
 
 .hero{
     background-color: var(--colore-bg-section);
+    position: relative;
 }
+
+.hero .container-big h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+
+.col-text{
+    width: calc(30% - 10px);
+    margin: 0 5px;
+}
+.col-img{
+    width: calc(70% - 10px);
+    margin: 0 5px;
+}
+
+.col-img img{
+    width: 100%;
+}
+
+
+
+
 
