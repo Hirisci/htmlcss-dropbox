@@ -16,6 +16,7 @@ body{
 
  :root{
     --colore-btn-base: #fff;
+    --colore-testo-secondario: #637381;
     --colore-bg-btn-base: #0061ff;
     --colore-bg-section: #b4d0e7;
 }
@@ -32,6 +33,10 @@ body{
 
 .col{
     float: left;
+}
+
+a:visited{
+    color: inherit;
 }
 
 /*--- container ---*/
@@ -53,6 +58,14 @@ body{
     padding: 10px 20px;
     background-color: var(--colore-bg-btn-base);
     color: var(--colore-btn-base);
+}
+
+.btn-big{
+    padding: 10px 60px;
+}
+
+.btn-total{
+    width: 100%;
 }
 
 /*------------ 
@@ -98,7 +111,7 @@ header{
 }
 .hero .container-big{
     position: relative;
-    bottom: -100px;
+    bottom: -70px;
 }
 
 .hero .container-big h1{
@@ -128,6 +141,112 @@ header{
 .col-img img{
     width: 100%;
 }
+
+/*--- BUSINESS ---*/
+
+h2{
+    margin: 50px 0;
+}
+
+div.box-input{
+    margin: 30px 0;
+}
+
+.business{
+    margin: 150px 0;
+}
+
+.col-3{
+    width: calc(100% /3 - 20px);
+}
+
+.col-3.mid{
+    margin: 0 30px;
+}
+
+.num-user{
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: none;
+    padding: 6px 0;
+}
+
+.sales-package{
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 25px;
+}
+
+.sales-package h3{
+    font-size: 20px;
+}
+
+.sales-package>* {
+    margin-bottom: 30px;
+}
+
+.sales-package .price>span, .sales-package .info-package>span{
+    display: block;
+    margin-bottom: 5px;
+}
+.sales-package .price .cost{
+    font-weight: bold;
+}
+
+.sales-package .price .info{
+    color: var(--colore-testo-secondario);
+}
+
+.sales-package div a{
+    text-decoration: none;
+    color: var(--colore-bg-btn-base);
+}
+
+.sales-package hr{
+    width: 30%;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.sales-package ul{
+    margin-top: -10px;
+}
+
+.sales-package ul li{
+    list-style:none ;
+    margin-bottom: 15px;
+    
+}
+.sales-package ul li i{
+    color: var(--colore-bg-btn-base);
+}
+
+.col .sales-package{
+    height: 750px;
+}
+
+.container>.num-user{
+    margin-top: 30px;
+}
+
+.sales-package.under .clear-fix h3{
+    float: left;
+}
+.sales-package.under .clear-fix button{
+    float: right;
+}
+
+.sales-package.under strong {
+    margin-top: -40;
+}
+
+
+
+
+
+
+
+
 
 
 
