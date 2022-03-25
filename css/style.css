@@ -84,6 +84,12 @@ img{
     background-color: #fff;
 }
 
+/*--- TYPO ---*/
+
+h3{
+    font-size: 20px;
+}
+
 /*------------ 
     TAG SEMANTICI 
 ------------*/
@@ -185,14 +191,12 @@ div.box-input{
 }
 
 .sales-package{
-    font-size: 12px;
+    font-size: 14px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     padding: 25px;
 }
 
-.sales-package h3{
-    font-size: 20px;
-}
+
 
 .sales-package>* {
     margin-bottom: 30px;
@@ -263,6 +267,18 @@ div.box-input{
 
 .operation{
     margin: 150px 0 ;
+}
+
+.operation .container .row .col h3{
+    margin: 20px 0;
+}
+
+.operation .container .row .col p{
+    font-size: 14px;
+}
+
+.operation .container .row{
+    margin: 30px 0;
 }
 
 
