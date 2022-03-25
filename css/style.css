@@ -304,6 +304,17 @@ footer{
     background-color: burlywood;
 }
 
+.square{
+    border: 1px solid black;
+    height: 12.5vw;
+    width: 12.5vw;
+
+}
+
+div.col.cn{
+    width: 50vw;
+    height: 25vw;
+}
 
 
 
