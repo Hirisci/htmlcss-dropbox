@@ -291,6 +291,21 @@ div.box-input{
     color: var(--colore-bg-btn-base);
 }
 
+/*--- FOOTER ---*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #b4d0e7;
+
+}
+.sponsor{
+    width: 100vw;
+    background-color: burlywood;
+}
+
+
+
 
 
 
