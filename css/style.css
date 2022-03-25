@@ -10,14 +10,54 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/*------------ Variabili ------------*/
+/*------------ 
+    Variabili 
+------------*/
 
  :root{
     --colore-testo: #fff;
 }
 
-/*------------ COMMON ------------*/
+/*------------ 
+    COMMON 
+------------*/
+
+.clear-fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
-/*------------ TAG SEMANTICI ------------*/
+/*------------ 
+    TAG SEMANTICI 
+------------*/
+
+/*--- HEADER ---*/
+
+header{
+    line-height: 70px;
+    padding: 10px;
+}
+.logo img{
+    vertical-align: middle;
+}
+
+
+.logo, .nav-main.nav-main-sx{
+    float: left;
+}
+
+.nav-main.nav-main-dx{
+    float: right;
+}
+
+.nav-main ul li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-main ul li a{
+    padding: 15px;
+}
 
