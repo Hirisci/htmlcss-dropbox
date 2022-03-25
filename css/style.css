@@ -19,6 +19,15 @@ body{
     --colore-testo-secondario: #637381;
     --colore-bg-btn-base: #0061ff;
     --colore-bg-section: #b4d0e7;
+    --colore-bf-sponsor: #f5f5f5;
+    --colore-sponsor-uno: #a2d39b;
+    --colore-sponsor-due: #61082b;
+    --colore-sponsor-tre: #0093ce ;
+    --colore-sponsor-quattro: #ff1c1c ;
+    --colore-sponsor-cinque: #d5001f ;
+    --colore-sponsor-sei: #b4d0e7 ;
+    --colore-sponsor-sette: #0d2481 ;
+    --colore-sponsor-otto: #ffd830 ;
 }
 
 /*------------ 
@@ -298,19 +307,50 @@ div.box-input{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    filter: grayscale(1);
 }
    
 
 .sponsor{
-    background-color: burlywood;
+    background-color: var(--colore-bf-sponsor);
 }
 
 .square{
     position: relative;
-    border: 1px solid black;
     height: 12.5vw;
     width: 50%;
 
+}
+.square-designit{
+    background-color: var(--colore-sponsor-uno);
+}
+
+.square-asu{
+    background-color: var(--colore-sponsor-due);
+}
+
+.square-florida{
+    background-color: var(--colore-sponsor-tre);
+}
+
+.square-topps{
+    background-color: var(--colore-sponsor-quattro);
+}
+
+.square-wbr{
+    background-color: var(--colore-sponsor-cinque);
+}
+
+.square-her{
+    background-color: var(--colore-sponsor-sei);
+}
+
+.square-lp{
+    background-color: var(--colore-sponsor-sette);
+}
+
+.square-cco{
+    background-color: var(--colore-sponsor-otto);
 }
 
 div.col-sx,div.col-dx{
