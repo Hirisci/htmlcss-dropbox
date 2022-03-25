@@ -17,6 +17,7 @@ body{
  :root{
     --colore-btn-base: #fff;
     --colore-bg-btn-base: #0061ff;
+    --colore-bg-section: #b4d0e7;
 }
 
 /*------------ 
@@ -29,6 +30,13 @@ body{
     clear: both;
 }
 
+/*--- container ---*/
+
+.container-big{
+    margin: auto;
+    max-width: 1300px;
+}
+
 /*--- button ---*/
 
 .btn{
@@ -36,7 +44,6 @@ body{
     padding: 5px 10px;
     background-color: var(--colore-bg-btn-base);
     color: var(--colore-btn-base);
-
 }
 
 /*------------ 
@@ -72,5 +79,11 @@ header{
     text-decoration: none;
     color: inherit;
     font-size: small;
+}
+
+/*--- HERO ---*/
+
+.hero{
+    background-color: var(--colore-bg-section);
 }
 
