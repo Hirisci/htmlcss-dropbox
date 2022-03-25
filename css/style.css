@@ -15,7 +15,8 @@ body{
 ------------*/
 
  :root{
-    --colore-testo: #fff;
+    --colore-btn-base: #fff;
+    --colore-bg-btn-base: #0061ff;
 }
 
 /*------------ 
@@ -28,6 +29,15 @@ body{
     clear: both;
 }
 
+/*--- button ---*/
+
+.btn{
+    border: none;
+    padding: 5px 10px;
+    background-color: var(--colore-bg-btn-base);
+    color: var(--colore-btn-base);
+
+}
 
 /*------------ 
     TAG SEMANTICI 
