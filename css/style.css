@@ -106,6 +106,12 @@ img{
     background-color: #fff;
 }
 
+.btn-white{
+    color: black;
+    background-color: #fff;
+}
+
+
 /*--- TYPO ---*/
 
 h3{
@@ -299,27 +305,30 @@ div.box-input{
 
 /*--- ENDING PAGE ---*/
 
-.ending-main .container>*{
-    margin: 0; 
+.ending-main .container{
 }
+.ending-main .container h2{
+    font-size: 40px;
 
+}
 .ending-main .container a{
     color: var(--colore-bg-btn-base);
 }
 
 /*--- ADV ---*/
 .adv{
-    margin-top: 150px;
+    margin-top: 100px;
 }
+
 .square img{
-    width: 75%;
+    width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     filter: grayscale(1);
 }
-   
+  
 
 .sponsor{
     background-color: var(--colore-bf-sponsor);
@@ -399,9 +408,18 @@ div.col-sx,div.col-dx{
 }
 
 
-.sponsor-bot .col h2{
-    text-align: center;
+.sponsor-bot .container .col h2{
+    font-size: 40px;
+    color: var(--colore-sponsor-due);
     margin: 0;
+}
+.sponsor-bot .container .col button{
+    position: absolute;
+    right: 0;
+}
+
+.sponsor-bot .container .col{
+    position: relative;
 }
 
 
