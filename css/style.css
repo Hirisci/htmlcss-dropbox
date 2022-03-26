@@ -113,7 +113,9 @@ img{
 
 
 /*--- TYPO ---*/
-
+h2{
+    font-size: 40px;
+}
 h3{
     font-size: 20px;
 }
@@ -247,24 +249,29 @@ div.box-input{
 }
 
 .sales-package ul{
-    margin-top: -10px;
+    margin-left: 23px;
 }
 
 .sales-package ul li{
     list-style:none ;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     
 }
-.sales-package ul li i{
+.sales-package ul.blue li i{
     color: var(--colore-bg-btn-base);
 }
 
 .col .sales-package{
-    height: 750px;
+    height: 800px;
 }
 
 .container>.num-user{
-    margin-top: 30px;
+    margin-top: 30px;  
+}
+
+.num-user i{
+    margin-right: 10px;
+    font-size: large;
 }
 
 .sales-package.under .clear-fix h3{
@@ -275,7 +282,7 @@ div.box-input{
 }
 
 .sales-package.under strong {
-    margin-top: -40;
+    margin-top: -40px;
 }
 
 
@@ -305,12 +312,6 @@ div.box-input{
 
 /*--- ENDING PAGE ---*/
 
-.ending-main .container{
-}
-.ending-main .container h2{
-    font-size: 40px;
-
-}
 .ending-main .container a{
     color: var(--colore-bg-btn-base);
 }
@@ -409,7 +410,6 @@ div.col-sx,div.col-dx{
 
 
 .sponsor-bot .container .col h2{
-    font-size: 40px;
     color: var(--colore-sponsor-due);
     margin: 0;
 }
@@ -426,7 +426,23 @@ div.col-sx,div.col-dx{
 /*---FAQ---*/
 
 .faq{
-    margin-top: 75px ;
+    margin: 60px 0;
+}
+
+.faq-row{
+    position: relative;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.faq-row:first-of-type {
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.faq-row::before{
+    content: "<i class="fa-solid fa-angle-down"></i>";
+    display: block;
+
 
 }
 
