@@ -439,11 +439,11 @@ div.col-sx,div.col-dx{
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.faq-row::before{
-    content: "<i class="fa-solid fa-angle-down"></i>";
-    display: block;
-
-
+.faq-row i {
+    position:absolute;
+    right: 30px;
+    top:50%;
+    transform: translate(0,-50%);
 }
 
 /*--- FOOTER ---*/
