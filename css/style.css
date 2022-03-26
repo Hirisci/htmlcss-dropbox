@@ -44,9 +44,22 @@ body{
     float: left;
 }
 
+.col-r{
+    float: right;
+
+}
+
 .col-2{
     width: calc(100% / 2 - 40px);
     margin: 0 20px;
+}
+
+.col-3{
+    width: calc(100% /3 - 20px);
+}
+
+.col-3.mid{
+    margin: 0 30px;
 }
 
 a:visited{
@@ -183,13 +196,7 @@ div.box-input{
     margin: 150px 0;
 }
 
-.col-3{
-    width: calc(100% /3 - 20px);
-}
 
-.col-3.mid{
-    margin: 0 30px;
-}
 
 .num-user{
     font-size: 12px;
@@ -371,7 +378,6 @@ div.col-sx,div.col-dx{
 
 .col-cn img{
     width: 35%;
-    background-color: black;
 }
 
 .col-cn hr{
@@ -385,6 +391,26 @@ div.col-sx,div.col-dx{
 }
 
 
+
+.sponsor-bot{
+    padding: 100px;
+    width: 100%;
+    background-color: var(--colore-sponsor-sei);
+}
+
+
+.sponsor-bot .col h2{
+    text-align: center;
+    margin: 0;
+}
+
+
+/*---FAQ---*/
+
+.faq{
+    margin-top: 75px ;
+
+}
 
 /*--- FOOTER ---*/
 
