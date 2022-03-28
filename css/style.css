@@ -390,10 +390,10 @@ div.col-sx,div.col-dx{
 }
 
 .col-cn{
-    width: 46%;
-    margin: 0 25px;
+    width: calc(100% - 50vw);
     height: 25vw;
-    padding: 40px;
+    padding: 60px;
+    overflow-y: auto;
 }
 
 .col-cn img{
