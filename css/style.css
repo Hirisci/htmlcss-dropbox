@@ -137,6 +137,10 @@ h3{
 /*--- HEADER ---*/
 
 header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
     line-height: 60px;
     padding: 10px 15px;
 }
@@ -168,6 +172,7 @@ header{
 /*--- HERO ---*/
 
 .hero{
+    padding-top: 90px;
     background-color: var(--colore-bg-section);
     position: relative;
 }
@@ -485,15 +490,3 @@ footer .bot{
     padding: 40px 0;
     color: lightgray;
 }
-
-
-
-
-
-
-
-
-
-
-
-
