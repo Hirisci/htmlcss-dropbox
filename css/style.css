@@ -118,6 +118,10 @@ img{
     background-color: #fff;
 }
 
+.btn:hover{
+    transform: scale(1.1);
+    filter: grayscale(0.3);
+}
 
 /*--- TYPO ---*/
 h2{
@@ -143,6 +147,7 @@ header{
     z-index: 10;
     line-height: 60px;
     padding: 10px 15px;
+    box-shadow: 0px -1px 18px  rgba(0, 0, 0, 0.3) inset;
 }
 .logo img{
     vertical-align: middle;
